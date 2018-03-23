@@ -2,9 +2,9 @@ Files for the microservices workshop hold at VTS media.
 
 ## tooling
 
-* go (1.9 or newer)
-* make
-* docker (17.12) and docker-compose 
+* Go (1.9 or newer)
+* `make`
+* `docker` (17.12) and docker-compose 
 * your favourite IDE or editor
 
 ## directory structure
@@ -41,7 +41,7 @@ Files for the microservices workshop hold at VTS media.
 * Statsd:
   * `telegraf`:8125 udp. Exposed to 8125 udp
 * InfluxDB
-  * `indluxdb`. No exposed ports to docker host
+  * `influxdb`. No exposed ports to docker host
     
 ## environments
 
@@ -54,6 +54,7 @@ Files for the microservices workshop hold at VTS media.
 
 ### test
 
+* run through `-test` make targets
 * designed for being able to run any test in any supporting infra, your
   workstation or a CI environment
 * it runs all services, including the most recently built version of `notif` 
