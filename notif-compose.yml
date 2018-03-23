@@ -1,0 +1,11 @@
+version: "3.5"
+services:
+  notif:
+    image: obliquo/notif
+    environment:
+      - USER_SVC_URL=http://users:9999/api/
+    networks:
+      - be
+      - fe
+    ports:
+      - "${NOTIF_PORT:-10000}:10000"
