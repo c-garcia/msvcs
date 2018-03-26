@@ -16,8 +16,8 @@ Files for the microservices workshop hold at VTS media.
     * `component`: component tests
     * `e2e`: e2e tests (with `e2e` build tag)
     * `ctrl`: Controller Implementations and UC interfaces
-    * `uc`: Use Case Implementations and Service interfaces
-    * `svcs`: Service Im (application or domain)
+    * `uc`: Use Case Implementations
+    * `svcs`: Services (application or domain)
     * `cmd`: executable files (as per the Go conventions)
     * `infra`: infrastructure configuration
     * `docker`: custom container definition
